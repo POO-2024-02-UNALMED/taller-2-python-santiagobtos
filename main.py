@@ -10,7 +10,7 @@ class Auto:
     def cantidadAsientos(self):
         contador=0
         for i in range(len(self.asientos)):
-            if self.cantidadAsientos[i]!=None:
+            if self.asientos[i]!=None:
                 contador+=1
         return contador
     def verificarIntegridad(self):
